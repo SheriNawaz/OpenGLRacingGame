@@ -37,5 +37,22 @@
 *.out
 *.app
 
-# debug information files
+# Debug information files
 *.dwo
+
+# Visual Studio files
+.vs/                
+*.vcxproj.user
+*.VC.db
+*.VC.opendb
+
+# CMake build directory
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Other temp files
+*.log
+*.tmp
